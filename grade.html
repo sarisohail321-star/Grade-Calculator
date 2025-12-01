@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container2">
+        <div><a href="add.html">(+) Addition</a></div>
+        <div><a href="subtract.html">(-) Subtraction</a></div>
+        <div><a href="multiply.html">(*) multiplication</a></div>
+        <div><a href="divide.html">(/) Division</a></div>
+        <div><a href="module.html">(%) Modulus</a></div>
+        <div><a href="grade.html">(A+,A,B) Grade</a></div>
+    </div>
+    <div class="container1"><h1>Javascript Calculator</h1></div>
+    <div class="container3"><a href="index.html" class="child"><h2>Go To Home Page</h2></a></div>
+
+    <!-- agar percentage 100 se ziyada hogi to invalid percentage hogi -->
+    <!-- agar percentage 0 se kam hogi to bhi invalid percentage hogi -->
+    <!-- agar percentage 80 ke barabar ya 100 ke bich me hogi to A+ grade hoga -->
+    <!-- agar percentage 70 se 80 ke bich me hogi ya 70 ke barabar hogi to A grade -->
+    <!-- agar percentage 60 se 70 ke bich me hogi ya 60 ke barabar hogi to B grade -->
+    <!-- agar percentage 50 se 60 ke bich me hogi ya 50 ke barabar hogi to C grade -->
+    <!-- agar percentage 40 se 50 ke bich me hogi ya 40 ke barabar hogi to D grade -->
+    <!-- agar percentage 33 se 40 ke bich me hogi ya 33 ke barabar hogi to F grade -->
+
+    <script>
+        let percentage = prompt("Enter Your percentage")
+
+        if(percentage > 100){
+            alert("invalid percentage")
+        }else if(percentage < 0) {
+            alert("invalid percentage")
+        }else if(percentage >= 80){
+            alert("A+ Grade")
+        }else if(percentage >= 70){
+            alert("A Grade")
+        }else if(percentage >= 60){
+            alert("B Grade")
+        }else if(percentage >= 50){
+            alert("C Grade")
+        }else if(percentage >= 40){
+            alert("D Grade")
+        }else if(percentage >= 33){
+            alert("E Grade")
+        }else if(percentage < 33){
+            alert("FAIL")
+        }
+        
+        
+
+    </script>
+</body>
+</html>

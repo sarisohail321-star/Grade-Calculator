@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: white;
+}
+.container2{
+    background-color: rgb(0, 0, 194);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    gap: 2em;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+a:hover{
+    color: rgb(0, 0, 0);
+}
+h1{
+    padding: 1em;
+    text-align: center;
+}
+.container3{
+    display: flex;
+    justify-content: center;
+}
+h2:hover{
+    color: darkblue;
+}
+.child{
+    color: rgb(0, 0, 0);
+}
+.child:hover{
+    color: darkblue;
+}
